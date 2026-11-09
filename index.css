@@ -37,3 +37,34 @@ font-family: "Roboto Mono", monospace;*/
     padding-right: 250px;
 }
 
+.header{
+    display: flex;
+    align-items: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: var(--primary-20);
+}
+
+.header-texts{
+    display: flex;
+    gap: 40px;
+    margin-right: 315px;
+
+}
+
+.header-text{
+    color: var(--primary-60);
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-icons{
+    display: flex;
+    padding-left: 327px;
+    gap: 30px;
+}
+
+.header-language{
+    color: var(--primary-60);
+    font-weight: 500;
+}
