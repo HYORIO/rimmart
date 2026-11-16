@@ -68,3 +68,72 @@ font-family: "Roboto Mono", monospace;*/
     color: var(--primary-60);
     font-weight: 500;
 }
+
+.hero-block{
+    height: 960px;
+    background-image:url(./assets/Rectangle.png);
+    background-repeat:no-repeat;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.button{
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    background-color: var(--primary-60);
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary-10);
+    width: fit-content;
+}
+
+.hero-block-container{
+    display: flex;
+    position: absolute;
+    bottom: 75px;
+    left: 250px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.best-sellers{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.best-sellers-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-sellers-text{
+    font-family:  "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: var(--primary-50);
+}
+
+.best-sellers-rounds{
+    display: flex;
+    gap: 10px;
+}
+
+.best-sellers-round{
+    border-radius: 50px;
+    background-color: var(--primary-50);
+    opacity: 50%;
+    width: 19px;
+    height: 19px;
+}
+
+.action{
+        opacity: 100%;
+    width: 20px;
+    height: 20px;
+}
+
