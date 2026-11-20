@@ -109,6 +109,8 @@ font-family: "Roboto Mono", monospace;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .best-sellers-text{
@@ -137,3 +139,87 @@ font-family: "Roboto Mono", monospace;*/
     height: 20px;
 }
 
+.main{
+    background-color: var(--primary-20);
+}
+
+.card{
+    background-color: var(--primary-10);
+    gap: 39px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.sale-box{
+    background-color: var(--primary-70);
+    padding: 10px;
+    border-radius: 10px;
+    width: 85px;
+    height: 52px;
+}
+
+.new-price{
+    color: var(--primary-40);
+}
+
+.old-price{
+    color: var(--primary-40);
+}
+
+.ring-material{
+    color: var(--primary-40);
+    font-size: 24px;
+}
+
+.price{
+    display: flex;
+    gap: 10px;
+}
+
+.ring-discription{
+    display: flex;
+    gap: 50px;
+}
+
+.SALE{
+    color: var(--primary-10);
+    font-size: 24px;
+    width: 300;
+}
+
+.new-price{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.old-price{
+    font-size: 20px;
+    text-decoration: line-through;
+    margin-top: 26px;
+    color: var(--primary-40);
+    opacity: 50%;
+}
+
+.best-sellers-main{
+    display: flex;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+
+.arrow-left{
+    margin-top: 263px;
+    margin-right: 45px;
+}
+
+.cards{
+    display: flex;
+    gap: 40px;
+}
+
+.arrow-rignt{
+    margin-top: 263px;
+    margin-left: 45px;
+}
