@@ -223,3 +223,60 @@ font-family: "Roboto Mono", monospace;*/
     margin-top: 263px;
     margin-left: 45px;
 }
+
+.collection-header{
+    color: var(--primary-50);
+    font-weight: 900;
+    font-size: 30PX;
+    font-family: "Roboto", sans-serif;
+    margin-top: 100px ;
+}
+
+.collections-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 604px 604px;
+}
+
+.collection-grid-item{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 50px;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.img-ring{
+    background-image: url(./assets/Image\ \(4\).png);
+}
+
+.collections{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.collections-text{
+    font-size: 24px;
+    color: var(--primary-20);
+}
+
+.ear-rings{
+    background-image: url(./assets/Image\ \(5\).png);
+}
+
+.bracelet{
+    background-image: url(./assets/Rectangle\ \(1\).png);
+}
+
+.rings{
+    background-image: url(./assets/Image\ \(6\).png);
+}
+
+.woman{
+    background-image: url(./assets/Image\ \(7\).png);
+}
+
+.cool-rings{
+    background-image: url(./assets/Rectangle\ \(2\).png);
+}
