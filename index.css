@@ -141,6 +141,7 @@ font-family: "Roboto Mono", monospace;*/
 
 .main{
     background-color: var(--primary-20);
+    padding-bottom: 100px;
 }
 
 .card{
@@ -279,4 +280,92 @@ font-family: "Roboto Mono", monospace;*/
 
 .cool-rings{
     background-image: url(./assets/Rectangle\ \(2\).png);
+}
+
+.footer-text-navigation{
+    color: var(--primary-50);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-30);
+    padding-top: 50px;
+    gap: 60px;
+}
+
+.footer-main{
+    display: flex;
+    align-items: center;
+}
+
+.footer-catalog{
+    display: flex;
+    gap: 50px;
+    width: 599px;;
+
+}
+
+.column{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+}
+
+.catalog-chapter{
+    color: var(--primary-60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.instagram{
+    display: flex;
+    gap: 27px;
+    align-items: center;
+}
+
+.inastagram-text{
+    font-size: 24px;
+    color: var(--primary-60);
+}
+
+.inastagram-icon{
+    width: 28px ;
+    height: 28px;
+}
+
+.instagram-pictures{
+    display: flex;
+    gap: 37px;
+}
+
+.text-live-content{
+    font-size: 20px;
+    color: var(--primary-60);
+}
+
+.media-block{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    width: 598px;
+}
+
+.second-media-block{
+    display: flex;
+    gap: 31px;
+    flex-direction: column;
+}
+
+.cool-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.email-adress{
+    font-size: 16px;
+    color: var(--primary-60); 
 }
